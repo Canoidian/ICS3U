@@ -34,9 +34,5 @@ public class WeeklyPay {
         System.out.println("Hello " + name);
         System.out.println("This week you worked "+ hoursWorked);
         System.out.println("You said you get paid $" + hourlyWage + " per hour");
-
-
-
-
     }
 }
