@@ -1,7 +1,7 @@
-package UnitOne;
+package UnitOne.B_While;
 
-import java.text.NumberFormat;
 // Imports
+import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class FinalCostLoop {
@@ -49,7 +49,6 @@ public class FinalCostLoop {
         System.out.println("\nFinal Total: " + currency.format(total));
         System.out.println("You purchased " + itemNum + " items");
 
-        System.out.println("\nThank you for using my program\n");
-
+        System.out.print("\n Enjoy the day. WI");
     }
 }

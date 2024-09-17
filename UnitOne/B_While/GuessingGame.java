@@ -1,4 +1,4 @@
-package UnitOne;
+package UnitOne.B_While;
 
 import java.util.Scanner;
 
