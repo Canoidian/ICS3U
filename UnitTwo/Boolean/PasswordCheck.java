@@ -1,3 +1,5 @@
+package UnitTwo.Boolean;
+
 import java.util.Scanner;
 
 public class PasswordCheck {
@@ -5,8 +7,9 @@ public class PasswordCheck {
 
     public static void main(String[] args) {
         
-        String password = "I give up", guess;
+        String password = "Kevin sucks at programming", guess;
         int counter = 2;
+        boolean correct = false;
 
         Scanner input = new Scanner(System.in);
 
@@ -18,9 +21,14 @@ public class PasswordCheck {
             guess = input.nextLine();
 
             counter--;
+
+            if (guess.equals(password)) {
+                correct = true;
+                break;
+            }
         }
 
-        if (guess.equals(password)) {
+        if (correct) {
             System.out.println("Correct. You are in.");
         } else {
             System.out.println("LOCKED OUT!!!");

@@ -7,6 +7,7 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class PizzaCost {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
 
         // Variables for cost of making a pizza at a local shop

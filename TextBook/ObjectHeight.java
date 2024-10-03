@@ -4,6 +4,7 @@ package TextBook;
 import java.util.Scanner;
 
 public class ObjectHeight {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
 
 

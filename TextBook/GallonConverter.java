@@ -5,6 +5,7 @@ package TextBook;
 import java.util.Scanner;
 
 public class GallonConverter {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         // Vars and Scanner
         int gallon, quarts, pints, cups, tablespoons;

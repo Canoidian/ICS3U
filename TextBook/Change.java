@@ -4,11 +4,13 @@ package TextBook;
 import java.util.Scanner;
 
 public class Change {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         
         // Variables and scanner
         int change, quarters, dimes, nickles, pennies;
         
+
 
         Scanner input = new Scanner(System.in);
 

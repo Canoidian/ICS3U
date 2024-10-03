@@ -4,6 +4,7 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Order {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         
         //Vars and scanner
