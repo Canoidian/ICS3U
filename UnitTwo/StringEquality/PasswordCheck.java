@@ -4,7 +4,6 @@ public class PasswordCheck {
 @SuppressWarnings("resource")
 
     public static void main(String[] args) {
-        
         String password = "I give up", guess;
         int counter = 2;
 
@@ -25,6 +24,5 @@ public class PasswordCheck {
         } else {
             System.out.println("LOCKED OUT!!!");
         }
-        
     }
 }

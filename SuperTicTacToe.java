@@ -1,11 +1,8 @@
-
-
 import java.util.Scanner;
 
 public class SuperTicTacToe {
     public static String[][][][] board = new String[3][3][3][3];
     public static int[] wins = new int[9];
-    
     //!---------------------------------------------------------------------------------------------------------------------------------
     //~ Initialize the board with "~"
     public static void initializeBoard() {
@@ -19,7 +16,7 @@ public class SuperTicTacToe {
             }
         }
     }
-    
+
     //!---------------------------------------------------------------------------------------------------------------------------------
     //~ Prints the board
     public static void printBoard() {

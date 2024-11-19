@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class FiveName {
     @SuppressWarnings("resource")
     public static void main(String[] args) {
-        
         String previous = "", current, acc;
         int counter = 5;
         Scanner input = new Scanner(System.in);

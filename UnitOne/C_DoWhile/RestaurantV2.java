@@ -15,9 +15,17 @@ public class RestaurantV2 {
         NumberFormat currency = NumberFormat.getCurrencyInstance();
 
         //Input from usr for order
-        System.out.print("\nHow many burgers would you like: ");
-        burgers = input.nextInt();
-        input.nextLine();
+        do {
+            System.out.print("\nHow many burgers would you like: ");
+            if (input.hasNextInt()) {
+                burgers = input.nextInt();
+                input.nextLine(); // Consume the newline
+                break;
+            } else {
+                System.out.println("Please enter a valid integer.");
+                input.nextLine(); // Consume the invalid input
+            }
+        } while (true);
 
         System.out.print("How many fries would you like: ");
         fries = input.nextInt();

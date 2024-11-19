@@ -26,9 +26,10 @@ public class FormattingRef {
             number is returned
         */
 
-        //^ Print Satments
+        //^ Print Statements
         System.out.println("CURRENCY:\t" + currency.format(number));
         System.out.println("DECIMAL:\t" + dec.format(number));
+        System.out.println("INTEGER:\t" + noDec.format(number));
         System.out.println("PERCENT:\t" + percent.format(number));
         System.out.println("PERCENT:\t" + percent.format(number));
     }
